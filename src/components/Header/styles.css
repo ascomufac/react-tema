@@ -1,0 +1,41 @@
+
+header{
+    width: 1280px;
+    height: 122px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+.title-header{
+    display: flex;
+    width: 758px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    
+    color: var(--pure-pure-100, #000);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Rawline;
+    font-size: 24.19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.barra-nome-portal{
+    height: 31px;
+    background-color: #187CB4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+
+    background: var(--pure-pure, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+ 
